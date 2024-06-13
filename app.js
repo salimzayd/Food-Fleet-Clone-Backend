@@ -8,7 +8,7 @@ import bodyParser from "body-parser";
 import cors from "cors"
 import userrouter from "./routes/userRoute.js";
 import mongoose from "mongoose";
-import adminroute from "./Routes/adminRoute.js";
+import adminroute from "./routes/adminRoute.js";
 
 const mongodb = process.env.MONGO_DB;
 
