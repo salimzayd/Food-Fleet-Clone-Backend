@@ -1,7 +1,7 @@
 import express from 'express';
 const adminroute = express.Router()
-import  { adminlogin ,allProduct,alluser,blockUser,createproduct, deleteDish, singleProduct, updateDish, userById} from '../Controllers/adminController.js'
-import  verifyToken  from '../Middlewares/adminAuthMiddleware.js';
+import  { adminlogin ,allProduct,alluser,blockUser,createproduct, deleteDish, singleProduct, updateDish, userById} from '../controllers/adminController.js'
+import  verifyToken  from '../middlewares/adminAuthMiddleware.js';
 import tryCatchMiddleware from '../middlewares/tryCatchMiddleware.js';
  import imageUpload from '../middlewares/imageUpload/imageUpload.js';
 import { allOrderDetails } from '../controllers/userController.js';
