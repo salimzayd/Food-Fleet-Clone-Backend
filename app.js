@@ -24,7 +24,9 @@ async function main(){
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin:"https://food-fleet-clone-frontend-01.vercel.app"
+}))
 
 app.use('/api/users' , userrouter)
 app.use('/api/admin',adminroute)
