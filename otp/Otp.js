@@ -5,9 +5,9 @@ dotenv.config()
 const accountSid = process.env.ACCOUNT_SID;
 const authToken = process.env.AUTH_TOKEN;
 const servicesids= process.env.SERVICE_ID;
-console.log("accountsid :",accountSid);
-console.log("authtoken :",authToken);
-console.log("services:",servicesids);
+// console.log("accountsid :",accountSid);
+// console.log("authtoken :",authToken);
+// console.log("services:",servicesids);
 const client = twilio(accountSid,authToken);
 
 export const sendOTP = async (req, res) => {

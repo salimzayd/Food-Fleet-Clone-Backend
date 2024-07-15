@@ -25,7 +25,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.json())
 app.use(cors({
-    origin:"https://food-fleet-clone-frontend-01.vercel.app",
+    origin:"https://food-fleet-clone-frontend.vercel.app/",
     methods:["GET","POST","PUT","DELETE"],
     allowedHeaders:["Content-Type","Authorization"]
 }))
