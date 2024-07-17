@@ -26,7 +26,7 @@ const options = {
     },
     servers: [
       {
-        url: `http://localhost:${port}/`,
+        url: `https://food-fleet-clone-backend.onrender.com/`,
       },
     ],
     tags: [
